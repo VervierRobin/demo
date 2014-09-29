@@ -1,0 +1,132 @@
+/*feuille de style du projet PHP*/
+
+#ensemble   /*wrapper*/
+	{ 	width:970px;
+		margin:10px;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+	}
+	
+#header  /*La bannière avec le texte*/
+	{ 	text-align:center;
+		color:blue;
+		font-size:125%;
+		font-weight:bold;
+		margin-left:auto;
+		margin-right:auto;	
+		width:960px;	
+		letter-spacing:0.42em;
+		text-align:center; /*Centrer l'intérieur*/
+	}	
+	
+#gauche  /*La boite de gauche*/
+	{ 	float:left;
+		margin-left:5px;
+		margin-top:10px;
+		width:200px;
+		/*background-color:#CCC;*/		
+	}	
+	
+#gauche #menu/*La boite menu*/
+	{ 	height:260px;
+		margin-bottom:10px;
+		text-align:left;	
+		padding-left:5px;
+	}
+	
+#gauche #info/*La boite info*/
+	{	height:250px;
+		margin-bottom:10px;
+		text-align:left;	
+		padding-left:5px;	
+	}	
+#date
+	{   font-family:"Courrier New","Comic Sans MS","Arial",serif;
+		text-align:center;
+		color:green;
+	}
+	
+#navigation/*le titre de chaque page de contenu*/
+	{ 	font-size:0.8em;	
+		font-weight:bold;
+		font-style:italic;	
+		text-align:left;
+	}	
+		
+#contenu/*la boite contenu*/
+	{ 	clear:none;
+		margin-left:210px;
+		margin-top:10px;
+		padding-right: 10px;
+		padding-left: 10px;	
+		width:725px;	
+		text-align:justify;
+		
+	}				
+
+#titre/*les différents titres*/
+	{	color:red;
+		font-family:"Courrier New","Comic Sans MS","Arial",serif;
+		font-weight:bold;
+		text-align:left;
+		text-transform:uppercase;	
+		font-size:110%;
+	}	
+
+#titre_m /*les titres dans la boite de gauche*/
+	{	color:red;
+		font-family:"Courrier New","Comic Sans MS","Arial",serif;
+		font-weight:bold;
+		text-align:left;
+		text-transform:uppercase;	
+		font-size:110%;
+	}	
+
+.T1 /*les bordures des tableaux*/
+	{  	border-style:solid;
+		border-width:4px;
+		border-color:black;
+		text-align:center;
+	}
+
+.T2 /*les bordures des tableaux*/
+      	{ 	border-style:solid;
+		border-width:1px;
+		border-color:black;
+	}
+	
+.T3 /*les bordures des tableaux*/
+      	{	border-style:solid;
+		border-width:1px;
+		border-color:black;
+		text-align:left;
+	}	
+
+#bienvenue /*Le titre de la page d'accueil*/
+	{ 	color:red;
+		font-family:"Courrier New","Comic Sans MS","Arial",serif;
+		font-weight:bold;
+		text-align:center;
+		text-transform:uppercase;	
+		font-size:250%;
+}
+
+#photos /*Le positionnement des photos*/
+	{text-align:center;
+	}		
+	
+body
+{	/*background-color:#DDAA2A;*/ /*La couleur de fond du site*/
+}
+
+.gras /*Met en gras les intitulés de la page contact*/
+	{  font-weight:bold;
+	}
+.copie/*définit une couleur pour les droits d'auteur de la carte provenant de google map */
+	{  color:#ccc; 
+	   text-align:center;
+	}
+.erreur /*met en rouge les étoiles des champs obligatoires vides dans les formulaires  */
+  { color:red;
+ }
